@@ -1,0 +1,107 @@
+/* Set zero margins, padding, and use border-box for consistent element sizing */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+  }
+  
+  /* Style the profile information section */
+  .profile-info {
+    position: absolute; /* Position the element absolutely */
+    top: 55px; /* Set top position to 55px */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%); /* Center horizontally with translate */
+    background: #262527; /* Set background color */
+    color: #69cad5; /* Set text color */
+    border: 1px solid #69cad5; /* Add a solid border */
+    width: 32vw; /* Set width to 32 viewport widths */
+    height: 82vh; /* Set height to 82 viewport heights */
+    font-family: Arial, Helvetica, sans-serif; /* Set font family */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px #69cad5, 0 0 20px #69cad5; /* Add double shadow effect */
+  }
+  
+  /* Style the profile picture container */
+  .profile-pic {
+    display: flex; /* Set display to flex for horizontal alignment */
+    justify-content: center; /* Center content horizontally */
+    margin-top: 20px; /* Add margin top */
+  }
+  
+  /* Style the profile picture itself */
+  .profile-info .sai {
+    border-radius: 50%; /* Set rounded corners for circular image */
+    object-fit: cover; /* Ensure image covers the element */
+    border: 1px solid #69cad5; /* Add a solid border */
+    box-shadow: 0 0 10px #69cad5, 0 0 20px #69cad5; /* Add double shadow effect */
+  }
+  
+  /* Style the name section */
+  .name {
+    margin-top: 20px; /* Add margin top */
+  }
+  
+  /* Style both the fullname and job sections */
+  .fullname,
+  .job {
+    display: flex; /* Set display to flex for horizontal alignment */
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  /* Additional styling for the job section */
+  .job {
+    margin: 0px; /* Remove default margin */
+    font-size: 18px; /* Set font size */
+  }
+  
+  /* Style the details section */
+  .details {
+    display: flex; /* Set display to flex */
+    justify-content: space-evenly; /* Distribute content evenly */
+    margin: 10px 0px 0px 0px; /* Set margins */
+  }
+  
+  /* Style the projects paragraph */
+  .projects p {
+    display: flex; /* Set display to flex for horizontal alignment */
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  /* Similar styling for followers and following paragraphs */
+  .followers p,
+  .following p {
+    display: flex; /* Set display to flex for horizontal alignment */
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  /* Style all spans */
+  span {
+    display: flex; /* Set display to flex for horizontal alignment */
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  /* Style the social media section */
+  .social {
+    display: flex; /* Set display to flex for horizontal alignment */
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  /* Style all images */
+  img {
+    margin: 2px; /* Add margin */
+  }
+  
+  /* Style the input field */
+  input {
+    position: absolute; /* Position the element absolutely */
+    width: 16vw; /* Set width to 16 viewport widths */
+    height: 50px; /* Set height */
+    font-size: 24px; /* Set font size */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%); /* Center horizontally with translate */
+    margin-top: 14px; /* Add margin top */
+    border-radius: 50px; /* Add rounded corners */
+    background: #69cad5; /* Set background color */
+    color: #262527; /* Set text color */
+  }  
